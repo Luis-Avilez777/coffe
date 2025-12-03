@@ -2,6 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('a[href^="#"]');
 
+    hola
+
     links.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -293,4 +295,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
 
