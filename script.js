@@ -124,7 +124,7 @@ function updateLoginButton() {
     if (!btn) return;
 
     if (user) {
-        btn.innerText = "Cerrar (" + user + ")";
+        btn.innerText = "Cerrar secion (" + user + ")";
         btn.onclick = logout;
     } else {
         btn.innerText = "Iniciar Sesión";
@@ -293,4 +293,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
 
